@@ -4,7 +4,7 @@
 https://github.com/kaw393939/webdev1project/tree/master
 
 ## Introduction
-For this midterm project, you are tasked with crafting a professional landing page and at least one additional page that is suitable for both desktop and mobile devices. By completing this mid-term you will learn the basics of project management, product design, quality assurance, and technical implementation. Ensure that you do not include any private information, such as address, phone, or email. LinkedIn will be your main means of contact, while your GitHub account will host your showcased projects issues / code / etc / clone.
+For this midterm project, you are tasked with crafting a professional landing page and at least one additional page that is suitable for both desktop and mobile devices. By completing this mid-term you will learn the basics of project management, product design, quality assurance, and technical implementation. Ensure that you do not include any private information, such as address, phone, or email. LinkedIn will be your main means of contact, while your GitHub account will host your showcased projects issues / code / etc.
 
 ## The Employer Journey
 The aim is to design a seamless Employer Journey. Much like a customer journey, the employer journey encapsulates the experience of a potential employer from their discovery of your portfolio site to understanding your professional, cultural, and technical fit for a position. The ultimate goal of this journey is to provide a prospective employer with the tools to evaluate your fit for your intended position / career and have a means to contact you via LinkedIn after being impressed by your portfolio.
