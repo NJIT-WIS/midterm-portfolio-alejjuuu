@@ -1,21 +1,41 @@
-// components/Footer.tsx
-
-const Footer = () => {
+export default function Home() {
   return (
-    <footer className="ds-footer text-center">
-      <div className="container">
-        <section>
-          <span>Talk to me now</span>
-          <h4>Have you not sent me a message?</h4>
-          <p>It&rsquo;s free</p>
-          <a href="mailto:labusiness2021@gmaiil.com" className="ds-button">
-            Lets Talk
-          </a>
-        </section>
-        <span className="ds-copyright">© 2023 All rights reserved.</span>
-      </div>
-    </footer>
-  );
-};
+    <div>
+      <header className="ds-header" id="site-header">
+        <div className="container">
+          <div className="ds-header-inner">
+            {/* logo  <Link> */}
+              <a href="/index" className="ds-logo">
+                <span>A</span>lejandro Velasquez
+              </a>
+            {/* logo */}
+            {/* social */}
+            <ul className="ds-social">
+              <li>
+                <a
+                  href="https://github.com/alejjuuu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="ri-github-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/alejandro-velasquez-b4a9971b4/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="ri-linkedin-fill"></i>
+                </a>
+              </li>
+            </ul>
+            {/* social */}
+          </div>
+        </div>
+      </header>
 
-export default Footer;
+      {/* Your other components and content can go here */}
+    </div>
+  );
+}
