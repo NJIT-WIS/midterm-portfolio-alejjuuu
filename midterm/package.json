@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "test": "playwright test scripts/*.test.js",
-    "test": "playwright test scripts/*.test.js"
 },
   "dependencies": {
     "next": "13.5.6",
