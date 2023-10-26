@@ -2,7 +2,7 @@
 ```bash
 #**********************
 #Updated nav and foother 
-#**********************
+#***********************
 
 #initialize github
 git init
