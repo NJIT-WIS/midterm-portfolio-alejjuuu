@@ -5,19 +5,20 @@ export default function Home() {
         <div className="container">
           <div className="ds-header-inner">
             {/* logo */}
-            <a href="index" className="ds-logo">
-              <span>A</span>lejandro Velasquez
-            </a>
-            {/* social */}
-            <li>
-              <a href="#" target="_blank">
-                <i className="ri-stack-overflow-line"></i>
+            <Link href="/index">
+              <a className="ds-logo">
+                <span>A</span>lejandro Velasquez
               </a>
-            </li>
-
+            </Link>
+            {/* logo */}
+            {/* social */}
             <ul className="ds-social">
               <li>
-                <a href="https://github.com/alejjuuu" target="_blank">
+                <a
+                  href="https://github.com/alejjuuu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="ri-github-fill"></i>
                 </a>
               </li>
@@ -25,11 +26,13 @@ export default function Home() {
                 <a
                   href="https://www.linkedin.com/in/alejandro-velasquez-b4a9971b4/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="ri-linkedin-fill"></i>
                 </a>
               </li>
             </ul>
+            {/* social */}
           </div>
         </div>
       </header>
