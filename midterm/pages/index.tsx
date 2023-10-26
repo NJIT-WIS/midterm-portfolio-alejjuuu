@@ -3,7 +3,7 @@ export default function Home() {
     <div>
 
 
-      {/* Your other components and content can go here*/}
+      {/* Your other components and content*/}
     </div>
   );
 }
