@@ -4,12 +4,10 @@ export default function Home() {
       <header className="ds-header" id="site-header">
         <div className="container">
           <div className="ds-header-inner">
-            {/* logo */}
-            <Link href="/index">
-              <a className="ds-logo">
+            {/* logo  <Link> */}
+              <a href="/index" className="ds-logo">
                 <span>A</span>lejandro Velasquez
               </a>
-            </Link>
             {/* logo */}
             {/* social */}
             <ul className="ds-social">
