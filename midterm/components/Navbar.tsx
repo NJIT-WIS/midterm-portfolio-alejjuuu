@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Your other components and content can go here */}
+      {/* Your other components and content */}
     </div>
   );
 }
