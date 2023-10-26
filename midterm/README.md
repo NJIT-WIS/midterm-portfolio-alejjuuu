@@ -31,7 +31,6 @@ npm run lint
 npm test
 
 
-
 my-next-app/
 |-- pages/
     |-- favicon.ico
