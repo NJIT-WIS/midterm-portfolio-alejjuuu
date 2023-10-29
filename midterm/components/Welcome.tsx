@@ -33,7 +33,7 @@ const Welcome: React.FC = () => {
                 </li>
                 <br />
                 <li>
-                  <strong>3+</strong>
+                  <strong>4+</strong>
                   <span>Experience</span>
                 </li>
                 <li>
