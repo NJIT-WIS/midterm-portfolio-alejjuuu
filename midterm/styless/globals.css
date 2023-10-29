@@ -345,6 +345,79 @@ img {
 
 
 /*-----------------------------------------------------------------
+  5. >>> Experience Style
+----------------------------------------------------------------*/
+.ds-experience-section {
+  padding-bottom: 120px;
+}
+
+.ds-experience-list section {
+  padding-right: 70px;
+}
+
+.ds-experience-list {
+  padding-top: 15px;
+}
+
+.ds-officename {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.ds-experience-list span {
+  display: block;
+}
+
+span.ds-year {
+  color: #373737;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+span.ds-department {
+  color: #373737;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.ds-experience-list p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.ds-experience-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.ds-experience-list ul li {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  padding-left: 28px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.ds-experience-list ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  background-color: #373737;
+}
+
+
+/*-----------------------------------------------------------------
   7. >>> Footer Style
 ----------------------------------------------------------------*/
 .ds-footer {
@@ -392,6 +465,80 @@ img {
 .ds-copyright a:hover {
   color: #F26464;
 }
+
+
+<style>.circle-image {
+  border-radius: 50%;
+  /* Set border-radius to 50% for a circular image */
+}
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-btn {
+  background-color: #f1f1f1;
+  border: none;
+  color: #333;
+  padding: 15px 20px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  /* Add curved edges */
+
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  /* Change position to relative */
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.dropdown-content li {
+  padding: 10px;
+}
+
+/*
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}*/
+
+/* Add custom styles for spacing on medium and larger screens */
+@media (min-width: 768px) {
+
+  .ds-experience-list .col-xxl-6,
+  .ds-experience-list .col-xl-6,
+  .ds-experience-list .col-lg-6,
+  .ds-experience-list .col-md-6 {
+    margin-bottom: 20px;
+    /* Adjust the spacing as needed */
+  }
+
+  .ds-experience-list .col-xxl-6:first-child,
+  .ds-experience-list .col-xl-6:first-child,
+  .ds-experience-list .col-lg-6:first-child,
+  .ds-experience-list .col-md-6:first-child {
+    margin-top: 0;
+    /* Remove top margin for the first column in each row */
+  }
+
+  .ds-experience-list .col-xxl-6:last-child,
+  .ds-experience-list .col-xl-6:last-child,
+  .ds-experience-list .col-lg-6:last-child,
+  .ds-experience-list .col-md-6:last-child {
+    margin-bottom: 0;
+    /* Remove bottom margin for the last column in each row */
+  }
+}
+
+</style>
 
 
 
