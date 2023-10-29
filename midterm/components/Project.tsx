@@ -31,8 +31,8 @@ const Projects: React.FC = () => {
               </p>
               <p>
                 I bring an artistic touch to web development, blending
-                functionality with aesthetics. Let's collaborate to enhance your
-                online presence and drive business growth.
+                functionality with aesthetics. Let&rsquo;s collaborate to
+                enhance your online presence and drive business growth.
               </p>
               <div className="dropdown">
                 <button
@@ -85,8 +85,8 @@ const Projects: React.FC = () => {
               </p>
               <p>
                 I bring an artistic touch to web development, blending
-                functionality with aesthetics. Let's collaborate to enhance your
-                online presence and drive business growth.
+                functionality with aesthetics. Let&rsquo;s collaborate to
+                enhance your online presence and drive business growth.
               </p>
               <div className="dropdown">
                 <button
@@ -132,9 +132,9 @@ const Projects: React.FC = () => {
                     PHPMailer, admin emails are set for auto-response.
                   </li>
                   <li>
-                    Encrypted users' data and prevented SQL injections and web
-                    scripting. The website receives more than 2000 interactions
-                    a day and 62000 per month.
+                    Encrypted users&rsquo; data and prevented SQL injections and
+                    web scripting. The website receives more than 2000
+                    interactions a day and 62000 per month.
                   </li>
                   <li>
                     Boosted visits and sales by 200% by offering a marketing
