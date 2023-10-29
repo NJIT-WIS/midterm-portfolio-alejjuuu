@@ -5,9 +5,9 @@ export default function Home() {
         <div className="container">
           <div className="ds-header-inner">
             {/* logo  <Link> */}
-              <a href="/index" className="ds-logo">
-                <span>A</span>lejandro Velasquez
-              </a>
+            <a href="/index" className="ds-logo">
+              <span>A</span>lejandro Velasquez
+            </a>
             {/* logo */}
             {/* social */}
             <ul className="ds-social">
@@ -35,7 +35,10 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Your other components and content can go here */}
+      {/* Wrapper with padding to push content below fixed navbar */}
+      <main style={{ paddingTop: "120px" }}>
+        {/* Your other components and content can go here */}
+      </main>
     </div>
   );
 }
