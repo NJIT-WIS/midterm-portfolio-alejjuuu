@@ -18,7 +18,11 @@ const Experience: React.FC = () => {
               <span className="ds-year">May 2023 - Aug 2023</span>
               <h3 className="ds-officename">Bank of America</h3>
               <span className="ds-department">Software Engineer</span>
-
+              <p>
+                I bring a history of impactful Python solutions and a commitment
+                to driving data-driven innovation. Let&rsquo;s collaborate to
+                achieve technical excellence.
+              </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements
@@ -61,6 +65,11 @@ const Experience: React.FC = () => {
               <span className="ds-year">Jun 2022 - Aug 2022</span>
               <h3 className="ds-officename">Fiserv</h3>
               <span className="ds-department">AppOps Intern</span>
+              <p>
+                I bring practical java skills to the table, aiming to enhance
+                your processes with realistic solutions. Let's work together to
+                make a positive impact.
+              </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements
@@ -107,7 +116,11 @@ const Experience: React.FC = () => {
               <span className="ds-year">Feb 2022 - Jun 2022</span>
               <h3 className="ds-officename">RideEV</h3>
               <span className="ds-department">Frontend Developer</span>
-
+              <p>
+                Specializing in Vue.js, real-time mapping, and payment
+                solutions, I&rsquo;ve optimized user experience in route
+                tracking and navigation. Let&rsquo;s innovate together.
+              </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements
@@ -147,7 +160,11 @@ const Experience: React.FC = () => {
               <span className="ds-year">Jun 2021 - Aug 2021</span>
               <h3 className="ds-officename">Fiserv</h3>
               <span className="ds-department">Technical Operations Intern</span>
-
+              <p>
+                With skills in Java, Splunk, and PowerShell, I excel in
+                real-time data analytics and automation. Let&rsquo;s collaborate
+                for technical excellence.
+              </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements

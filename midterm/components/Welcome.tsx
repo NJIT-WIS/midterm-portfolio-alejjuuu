@@ -10,14 +10,13 @@ const Welcome: React.FC = () => {
           <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
             <figure>
               <Image
-                src="/../pages/assets/images/profile-image.jpg"
+                src="https://media.licdn.com/dms/image/D4D03AQE4NZMkaoMRIg/profile-displayphoto-shrink_800_800/0/1683148108953?e=1704326400&amp;v=beta&amp;t=K3TW4CAXqrNBIir02_ch6u_E82RIzQ_ra2gpc0Yr9NA"
                 className="circle-image"
-                alt={""}
+                alt="Profile"
                 width={500}
                 height={500}
-              ></Image>
+              />
             </figure>
-
           </div>
 
           <div className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
