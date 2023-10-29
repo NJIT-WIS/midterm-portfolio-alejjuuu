@@ -1,4 +1,38 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faJs,
+  faJava,
+  faNode,
+  faVuejs,
+  faReact,
+  faCss3,
+  faLinux,
+  faHtml5,
+  faGithub,
+  faPython,
+  faAws,
+  faDocker,
+  faFigma,
+  faAndroid,
+  faBootstrap,
+  faGithubAlt,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faDatabase,
+  faTerminal,
+  faPen,
+  faLanguage,
+  faChartBar,
+  faCode,
+  faServer,
+  faCreditCard,
+  faMobileAlt,
+  faDesktop,
+  faFileCode,
+  faPalette,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Skills: React.FC = () => {
   return (
@@ -8,58 +42,110 @@ const Skills: React.FC = () => {
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <h2 className="ds-heading">Core Skills</h2>
             <ul className="ds-skills-list">
-              <li>JavaScript</li>
-              <li>JAVA</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>MongoDB</li>
-              <li>Vue.js</li>
-              <li>React</li>
-              <li>CSS</li>
-              <li>LINUX</li>
-              <li>SQL</li>
-              <li>AJAX</li>
-              <li>Stripe payments</li>
-              <li>Boostrap</li>
-              <li>Python</li>
-              <li>PowerShell</li>
-              <li>XML</li>
-              <li>Database Management System (DBMS)</li>
-              <li>Github</li>
-              <li>HTML5</li>
-              <li>PHP</li>
-              <li>Splunk</li>
-              <li>Shell Scripting</li>
-              <li>AWS</li>
-              <li>Agile</li>
-              <li>Android Studio</li>
-              <li>C#</li>
-              <li>Docker</li>
-              <li>English</li>
-              <li>Figma</li>
-              <li>GitHub/Git</li>
-              <li>Linux CLI</li>
-              <li>Next.js</li>
-              <li>Playwright</li>
-              <li>R</li>
-              <li>RabbitMQ</li>
-              <li>Sales</li>
-              <li>Spanish</li>
-              <li>Tableau</li>
-              <li>Tailwind</li>
+              <li>
+                <FontAwesomeIcon icon={faJs} /> JavaScript
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faJava} /> JAVA
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faNode} /> Node.js
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faVuejs} /> Vue.js
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faReact} /> React
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCss3} /> CSS
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faLinux} /> LINUX
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faDatabase} /> SQL
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCode} /> AJAX
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCreditCard} /> Stripe payments
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faPython} /> Python
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faTerminal} /> PowerShell
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faFileCode} /> XML
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faDatabase} /> DBMS
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faGithubAlt} /> Github
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faHtml5} /> HTML5
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCode} /> PHP
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faTerminal} /> Shell Scripting
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faAws} /> AWS
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faMobileAlt} /> Android Studio
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faDocker} /> Docker
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faFigma} /> Figma
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faGithub} /> GitHub/Git
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faLinux} /> Linux CLI
+              </li>
             </ul>
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <h2 className="ds-heading">Other Skills</h2>
             <ul className="ds-skills-list">
-              <li>Copywriting</li>
-              <li>Adobe Premiere Pro</li>
-              <li>Davinci resolve</li>
-              <li>Adobe Photoshop</li>
-              <li>Adobe Illustrator</li>
-              <li>Capcut</li>
-              <li>Spanish</li>
-              <li>Final Cut Pro</li>
+              <li>
+                <FontAwesomeIcon icon={faPen} /> Copywriting
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faPalette} /> Adobe Premiere Pro
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faDesktop} /> Davinci resolve
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faPalette} /> Adobe Photoshop
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faPalette} /> Adobe Illustrator
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faMobileAlt} /> Capcut
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faLanguage} /> Spanish
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faDesktop} /> Final Cut Pro
+              </li>
             </ul>
           </div>
         </div>
