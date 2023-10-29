@@ -19,9 +19,7 @@ const Experience: React.FC = () => {
               <h3 className="ds-officename">Bank of America</h3>
               <span className="ds-department">Software Engineer</span>
               <p>
-                I bring a history of impactful Python solutions and a commitment
-                to driving data-driven innovation. Let&rsquo;s collaborate to
-                achieve technical excellence.
+                Select here to see my achievements at Bank of America.
               </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
@@ -66,9 +64,7 @@ const Experience: React.FC = () => {
               <h3 className="ds-officename">Fiserv</h3>
               <span className="ds-department">AppOps Intern</span>
               <p>
-                I bring practical java skills to the table, aiming to enhance
-                your processes with realistic solutions. Let's work together to
-                make a positive impact.
+                Click here to see my achievements at Fiserv.
               </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
@@ -117,9 +113,7 @@ const Experience: React.FC = () => {
               <h3 className="ds-officename">RideEV</h3>
               <span className="ds-department">Frontend Developer</span>
               <p>
-                Specializing in Vue.js, real-time mapping, and payment
-                solutions, I&rsquo;ve optimized user experience in route
-                tracking and navigation. Let&rsquo;s innovate together.
+                Click here to see my achievements with a StartUp.
               </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
@@ -161,9 +155,7 @@ const Experience: React.FC = () => {
               <h3 className="ds-officename">Fiserv</h3>
               <span className="ds-department">Technical Operations Intern</span>
               <p>
-                With skills in Java, Splunk, and PowerShell, I excel in
-                real-time data analytics and automation. Let&rsquo;s collaborate
-                for technical excellence.
+                Click here to see my achievements at Fiserv.
               </p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>

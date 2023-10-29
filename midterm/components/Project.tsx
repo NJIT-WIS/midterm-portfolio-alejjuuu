@@ -29,11 +29,7 @@ const Projects: React.FC = () => {
                   www.uniquephotography.art
                 </a>
               </p>
-              <p>
-                I bring an artistic touch to web development, blending
-                functionality with aesthetics. Let&rsquo;s collaborate to
-                enhance your online presence and drive business growth.
-              </p>
+
               <div className="dropdown">
                 <button
                   className="dropdown-btn"
@@ -83,11 +79,7 @@ const Projects: React.FC = () => {
                   www.dinfluenceart.com
                 </a>
               </p>
-              <p>
-                I bring an artistic touch to web development, blending
-                functionality with aesthetics. Let&rsquo;s collaborate to
-                enhance your online presence and drive business growth.
-              </p>
+
               <div className="dropdown">
                 <button
                   className="dropdown-btn"
