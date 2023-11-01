@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const Welcome: React.FC = () => {
@@ -23,7 +24,8 @@ const Welcome: React.FC = () => {
             <section>
               <h1>
                 <span>Hello world</span>
-                I am Alejandro <br /> the BEST software engineer and sales man.
+               Alejandro <br/> thirsty
+                to learn sofware enginering and AI.
               </h1>
               <ul className="ds-numbervalulist">
                 <li>
@@ -32,14 +34,26 @@ const Welcome: React.FC = () => {
                 </li>
                 <br />
                 <li>
-                  <strong>4+</strong>
+                  <strong>3+</strong>
                   <span>Experience</span>
                 </li>
                 <li>
                   <strong>15</strong>
                   <span>Projects</span>
+                  
                 </li>
               </ul>
+              <br></br>
+              <div className="ds-button-sec text-left">
+                <Link 
+                  href="/projects" 
+                  className="ds-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  Projects
+                </Link>
+              </div>
             </section>
           </div>
         </div>
