@@ -32,21 +32,38 @@ npm test
 
 
 my-next-app/
-|-- pages/
-    |-- favicon.ico
-    |-- globals.css
-    |-- layout.tsx
-    |-- index.tsx
+|-- .next
 |-- components/
 |   |-- Navbar.tsx
-|-- node_modules/
+    |-- About.tsx
+    |-- All_Products.tsx
+    |-- Experience.tsx
+    |-- Footer.tsx
+    |-- Project.tsx
+    |-- Skills.tsx
+    |-- Welcome.tsx
+|-- node_modules
+|-- pages
+    |-- Asseets
+        |-- js
+    |-- __app.tsx
+    |-- __document.tsx
+    |-- indeex.tsx
+    |-- layout.tsx
+    |-- projects.tsx
 |-- public/
-|   |-- next.svg
-|   |-- vercel.svg
+    |-- images
+        |-- profile-image.jpg
+    |-- next.svg
+    |-- vercel.svg
 |-- scripts
+    |-- screenshots
+        |-- e-commerce-web-app.jpg
+        |-- photography-portfolio.jpg
+    |-- automated_test.test.js
     |-- screenshot.test.js
-|-- 
-|-- test-results
+|-- styless
+    |-- globals.css
 |-- .eslintrc.json
 |-- .gitignore
 |-- next-env.d.ts
@@ -56,3 +73,11 @@ my-next-app/
 |-- README.md
 |-- tailwind.config.ts
 |-- tsconfig.json
+
+
+
+#To reditect users to another page withing the application
+npm install react-router-dom
+
+#run playwright tests from terrminal
+node testname.test.js
