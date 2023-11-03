@@ -46,7 +46,7 @@ export default function Home() {
       </header>
 
       {/* Wrapper with padding to push content below fixed navbar */}
-      <main style={{ paddingTop: "120px" }}>
+      <main style={{ paddingTop: "140px" }}>
         {/* Your other components and content can go here */}
       </main>
     </div>

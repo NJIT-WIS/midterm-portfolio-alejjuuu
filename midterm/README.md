@@ -79,5 +79,16 @@ my-next-app/
 #To reditect users to another page withing the application
 npm install react-router-dom
 
+
 #run playwright tests from terrminal
 node testname.test.js
+
+
+npm install --save-dev next
+
+
+#install babel 
+npm install next
+
+#run codegen with playwright
+npx playwright codegen localhost:3000
