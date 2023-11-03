@@ -1,5 +1,8 @@
+// Since you're using ES modules, you import the playwright like this:
+import playwright from 'playwright';
+
 // screenshot.js
-const playwright = require('playwright');
+// Remove the CommonJS require statement since you already imported playwright at the top.
 
 async function takeScreenshot(url, path) {
   // Launch the browser
