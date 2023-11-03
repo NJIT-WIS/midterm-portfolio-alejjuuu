@@ -74,7 +74,8 @@ const Skills: React.FC = () => {
                 <a href="https://github.com/alejjuuu/NJFREEEDU">CSS</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faLinux} /> LINUX
+                <FontAwesomeIcon icon={faLinux} />
+                <a href="https://github.com/alejjuuu/linux-shell">LINUX</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faDatabase} />
@@ -88,10 +89,12 @@ const Skills: React.FC = () => {
                 </a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faCreditCard} /> Stripe payments
+                <FontAwesomeIcon icon={faCreditCard} />
+                <a href="your-link-here">Stripe payments</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faBootstrap} /> Bootstrap / Tailwind
+                <FontAwesomeIcon icon={faBootstrap} />
+                <a href="your-link-here">Bootstrap / Tailwind</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faPython} />
@@ -100,18 +103,21 @@ const Skills: React.FC = () => {
                 </a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faTerminal} /> PowerShell
+                <FontAwesomeIcon icon={faTerminal} />
+                <a href="your-link-here">PowerShell</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faFileCode} /> XML / JSON
+                <FontAwesomeIcon icon={faFileCode} />
+                <a href="your-link-here">XML / JSON</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faDatabase} /> DBMS
+                <FontAwesomeIcon icon={faDatabase} />
+                <a href="your-link-here">DBMS</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faGithubAlt} />
                 <a href="https://github.com/NJIT-WIS/midterm-portfolio-alejjuuu">
-                   GitHub/Git
+                  GitHub/Git
                 </a>
               </li>
               <li>
@@ -137,7 +143,8 @@ const Skills: React.FC = () => {
                 <a href="https://github.com/alejjuuu/AWS">AWS</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faMobileAlt} /> Android Studio
+                <FontAwesomeIcon icon={faMobileAlt} />
+                <a href="your-link-here">Android Studio</a>{" "}
               </li>
               <li>
                 <FontAwesomeIcon icon={faDocker} />{" "}
@@ -150,7 +157,8 @@ const Skills: React.FC = () => {
                 </a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faLinux} /> Linux CLI
+                <FontAwesomeIcon icon={faLinux} />
+                <a href="your-link-here">Linux CLI</a>
               </li>
             </ul>
           </div>
@@ -162,25 +170,32 @@ const Skills: React.FC = () => {
                 <a href="https://yeslea.com/">Copywriting</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faPalette} /> Adobe Premiere Pro
+                <FontAwesomeIcon icon={faPalette} />
+                <a href="your-link-here">Adobe Premiere Pro</a>
+                {/* Add your URL here */}
               </li>
               <li>
-                <FontAwesomeIcon icon={faDesktop} /> Davinci resolve
+                <FontAwesomeIcon icon={faDesktop} />
+                <a href="your-link-here">Davinci resolve</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faPalette} /> Adobe Photoshop
+                <FontAwesomeIcon icon={faPalette} />
+                <a href="your-link-here">Adobe Photoshop</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faPalette} /> Adobe Illustrator
+                <FontAwesomeIcon icon={faPalette} />
+                <a href="your-link-here">Adobe Illustrator</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faMobileAlt} /> Capcut
+                <FontAwesomeIcon icon={faMobileAlt} />
+                <a href="your-link-here">Capcut</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faLanguage} /> Spanish
               </li>
               <li>
-                <FontAwesomeIcon icon={faDesktop} /> Final Cut Pro
+                <FontAwesomeIcon icon={faDesktop} />
+                <a href="your-link-here">Final Cut Pro</a>
               </li>
             </ul>
           </div>
