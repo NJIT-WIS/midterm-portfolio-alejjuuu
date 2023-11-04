@@ -92,3 +92,8 @@ npm install next
 
 #run codegen with playwright
 npx playwright codegen localhost:3000
+
+npm install --save @babel/present-react
+
+
+#run playwright

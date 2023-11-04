@@ -14,9 +14,7 @@ const ProjectsPage = () => {
       <Navbar />
       <Project/>
       <ProjectSpecs />
-      {/* Add the content for your projects here. */}
-      {/* This could be a list of project cards, a gallery, etc. */}
-      
+
       <Footer />
     </div>
   );
