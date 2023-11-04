@@ -15,7 +15,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
 }) => {
   return (
-    // mx-auto will center the card in its grid cell, and max-w-sm will limit its size
     <div className="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
       <a href={projectUrl} target="_blank" rel="noopener noreferrer">
         <Image
@@ -43,22 +42,20 @@ interface Project {
 }
 
 const ProjectsShowcase: React.FC = () => {
-  // Replace with your actual project data
  const projects: Project[] = [
    {
      title: "Photography Portfolio",
-     imageUrl: "/images/photography-portfolio.jpg", // Path where the screenshot is saved
+     imageUrl: "/images/photography-portfolio.webp", 
      projectUrl: "https://www.uniquephotography.art",
      description:
        "A captivating front-end web platform dedicated to photography.",
    },
    {
      title: "E-commerce Web App",
-     imageUrl: "/images/e-commerce-web-app.jpg", // Path where the screenshot is saved
+     imageUrl: "/images/e-commerce-web-app.webp", 
      projectUrl: "https://www.dinfluenceart.com",
      description: "A unique e-commerce business full-stack web application.",
    },
-   // ...more projects
  ];
 
 
@@ -70,7 +67,6 @@ const ProjectsShowcase: React.FC = () => {
       <div className="justify-items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {projects.map((project, index) => (
-            // Add margin to the ProjectCard component
             <div key={index} className="m-4">
               <ProjectCard {...project} />
             </div>

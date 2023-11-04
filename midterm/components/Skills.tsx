@@ -172,7 +172,6 @@ const Skills: React.FC = () => {
               <li>
                 <FontAwesomeIcon icon={faPalette} />
                 <a href="your-link-here">Adobe Premiere Pro</a>
-                {/* Add your URL here */}
               </li>
               <li>
                 <FontAwesomeIcon icon={faDesktop} />

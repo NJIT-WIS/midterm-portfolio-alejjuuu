@@ -11,7 +11,7 @@ const Welcome: React.FC = () => {
           <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
             <figure>
               <Image
-                src="https://media.licdn.com/dms/image/D4D03AQE4NZMkaoMRIg/profile-displayphoto-shrink_800_800/0/1683148108953?e=1704326400&amp;v=beta&amp;t=K3TW4CAXqrNBIir02_ch6u_E82RIzQ_ra2gpc0Yr9NA"
+                src="/images/profile-image.webp"
                 className="circle-image"
                 alt="Profile"
                 width={500}
@@ -24,8 +24,7 @@ const Welcome: React.FC = () => {
             <section>
               <h1>
                 <span>Hello world</span>
-               Alejandro <br/> thirsty
-                to learn sofware enginering and AI.
+                Alejandro <br /> thirsty to learn sofware enginering and AI.
               </h1>
               <ul className="ds-numbervalulist">
                 <li>
@@ -40,17 +39,16 @@ const Welcome: React.FC = () => {
                 <li>
                   <strong>15</strong>
                   <span>Projects</span>
-                  
                 </li>
               </ul>
               <br></br>
               <div className="ds-button-sec text-left">
-                <Link 
-                  href="/projects" 
+                <Link
+                  href="/projects"
                   className="ds-button"
                   target="_blank"
                   rel="noopener noreferrer"
-                  >
+                >
                   Projects
                 </Link>
               </div>

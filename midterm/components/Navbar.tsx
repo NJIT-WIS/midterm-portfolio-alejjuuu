@@ -8,7 +8,6 @@ export default function Home() {
       <header className="ds-header" id="site-header">
         <div className="container">
           <div className="ds-header-inner">
-            {/* Logo - using Link for client-side navigation to the homepage */}
             <Link href="/">
               <div className="ds-logo">
                 <span>A</span>lejandro Velasquez
@@ -34,7 +33,6 @@ export default function Home() {
                   <i className="ri-linkedin-fill"></i>
                 </Link>
               </li>
-              {/* Projects Link - Link component for navigating to the projects page */}
               <li>
                 <Link href="/projects" legacyBehavior>
                   <a>P</a>
@@ -47,7 +45,6 @@ export default function Home() {
 
       {/* Wrapper with padding to push content below fixed navbar */}
       <main style={{ paddingTop: "140px" }}>
-        {/* Your other components and content can go here */}
       </main>
     </div>
   );
