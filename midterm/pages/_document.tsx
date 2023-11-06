@@ -6,7 +6,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Preload key requests */}
           <link
             rel="preload"
             href="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
