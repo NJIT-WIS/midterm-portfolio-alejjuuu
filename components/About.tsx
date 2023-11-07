@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
+
 const About: React.FC = () => {
   return (
     <div className="ds-about-section">
