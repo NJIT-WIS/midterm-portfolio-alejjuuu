@@ -34,11 +34,11 @@ npm test
 my-next-app/
 |-- .next
 |-- components/
-|   |-- Navbar.tsx
     |-- About.tsx
-    |-- All_Products.tsx
+    |-- All_Products.tsx    
     |-- Experience.tsx
     |-- Footer.tsx
+    |-- Navbar.tsx
     |-- Project.tsx
     |-- Skills.tsx
     |-- Welcome.tsx
@@ -48,7 +48,7 @@ my-next-app/
         |-- js
     |-- __app.tsx
     |-- __document.tsx
-    |-- indeex.tsx
+    |-- index.tsx
     |-- layout.tsx
     |-- projects.tsx
 |-- public/

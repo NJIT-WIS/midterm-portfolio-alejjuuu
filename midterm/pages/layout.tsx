@@ -1,13 +1,10 @@
 import { ReactNode } from "react";
 import Head from "next/head";
-import { Inter } from "next/font/google";
 
 type LayoutProps = {
   children: ReactNode;
   title?: string;
 };
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -19,7 +16,13 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
-        
+
+        {/* Google Font - Inter */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+          rel="stylesheet"
+        />
+
         {/* Remixicon Icon */}
         <link
           href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -34,7 +37,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
       </Head>
-      <div className={inter.className}>{children}</div>{" "}
+      <div>{children}</div>
     </>
   );
 }
