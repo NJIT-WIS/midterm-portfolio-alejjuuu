@@ -82,6 +82,8 @@ npm install react-router-dom
 #run playwright tests from terrminal
 node testname.test.js
 
+Link to figma
+https://www.figma.com/file/w9mJTduMTBNVXT22JUCEF4/Untitled?type=design&node-id=0-1&mode=design&t=oGvwKWIcyoR4OJ3T-0
 
 <img width="244" alt="Screenshot 2023-11-06 at 11 29 41 PM" src="https://github.com/NJIT-WIS/midterm-portfolio-alejjuuu/assets/89930344/a7275717-97ff-4fc6-9061-959f86555649">
 
