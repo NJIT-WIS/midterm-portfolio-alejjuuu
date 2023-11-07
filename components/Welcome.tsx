@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const Welcome: React.FC = () => {
   return (
     <div className="ds-banner">
@@ -26,6 +25,16 @@ const Welcome: React.FC = () => {
                 <span>Hello world</span>
                 Alejandro <br /> thirsty to learn sofware enginering and AI.
               </h1>
+              <div className="ds-button-sec text-center">
+                <Link
+                  href="/projects"
+                  className="ds-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Look at My Projects
+                </Link>
+              </div>
               <ul className="ds-numbervalulist">
                 <li>
                   <h3>New Jersey Institute of Technology</h3>
@@ -42,16 +51,6 @@ const Welcome: React.FC = () => {
                 </li>
               </ul>
               <br></br>
-              <div className="ds-button-sec text-left">
-                <Link
-                  href="/projects"
-                  className="ds-button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Projects
-                </Link>
-              </div>
             </section>
           </div>
         </div>
