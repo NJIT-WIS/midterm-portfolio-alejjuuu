@@ -84,5 +84,7 @@ node testname.test.js
 
 
 
+<img width="244" alt="image" src="https://github.com/NJIT-WIS/midterm-portfolio-alejjuuu/assets/89930344/4627e1c7-d6aa-4e4e-b740-05b3847b556b">
+
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fw9mJTduMTBNVXT22JUCEF4%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DoGvwKWIcyoR4OJ3T-1" allowfullscreen></iframe>
