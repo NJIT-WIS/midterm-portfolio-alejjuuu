@@ -117,6 +117,7 @@ img {
 /*-----------------------------------------------------------------
   1. >>> Headr Style
 ----------------------------------------------------------------*/
+/* Default styles that apply to all screen sizes */
 .ds-header {
   position: absolute;
   top: 0;
@@ -124,15 +125,15 @@ img {
   z-index: 5;
   background-color: #FFF;
   padding: 50px 0;
-  /* Default padding for larger screens */
+  /* Large padding that may look too big on mobile */
   transition: padding 0.4s ease;
 }
 
-/* Responsive style for smaller screens */
+/* Override styles for smaller screens using media query */
 @media (max-width: 768px) {
   .ds-header {
     padding: 15px 0;
-    /* Reduced padding for smaller screens */
+    /* Adjust padding to make header smaller on mobile */
   }
 }
 .ds-header.ds-fixed-header {
@@ -609,3 +610,6 @@ span.ds-department {
 
 
 }
+
+
+

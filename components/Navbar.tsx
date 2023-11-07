@@ -1,5 +1,5 @@
 // Import Link from next/link for client-side transitions between routes.
-import Link from 'next/link';
+import Link from "next/link";
 
 // Define the Home component.
 export default function Home() {
@@ -44,8 +44,7 @@ export default function Home() {
       </header>
 
       {/* Wrapper with padding to push content below fixed navbar */}
-      <main style={{ paddingTop: "140px" }}>
-      </main>
+      <main style={{ paddingTop: "4vh" }}></main>
     </div>
   );
 }
