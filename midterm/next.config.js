@@ -3,6 +3,6 @@ module.exports = {
     domains: ['media.licdn.com'],
     unoptimized: true, // Disable the image optimization
   },
-  assetPrefix: './', // This is necessary if your site is hosted on GitHub Pages
+  assetPrefix: '/midterm-portfolio-alejjuuu/', // Adjusted for GitHub Pages
   // ... other Next.js config
 };
