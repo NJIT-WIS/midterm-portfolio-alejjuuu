@@ -83,6 +83,7 @@ npm install react-router-dom
 node testname.test.js
 
 
+<img width="244" alt="Screenshot 2023-11-06 at 11 29 41 PM" src="https://github.com/NJIT-WIS/midterm-portfolio-alejjuuu/assets/89930344/cda4fbbb-ad9b-4b1e-a456-09e54facacaf">
 
 <img width="244" alt="image" src="https://github.com/NJIT-WIS/midterm-portfolio-alejjuuu/assets/89930344/4627e1c7-d6aa-4e4e-b740-05b3847b556b">
 
