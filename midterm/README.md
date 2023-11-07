@@ -31,8 +31,8 @@ npm run lint
 npm test
 
 
-my-next-app/
-|-- .next
+midterm/
+|-- _next
 |-- components/
     |-- About.tsx
     |-- All_Products.tsx    
@@ -43,6 +43,15 @@ my-next-app/
     |-- Skills.tsx
     |-- Welcome.tsx
 |-- node_modules
+|-- out
+    |-- _next
+    |-- images
+    404.html
+    index.html
+    layout.html
+    nex.svg
+    projects.html
+    vercel.svg
 |-- pages
     |-- Asseets
         |-- js
@@ -53,14 +62,15 @@ my-next-app/
     |-- projects.tsx
 |-- public/
     |-- images
+        |-- e-commerce-web-app.webp
+        |-- photography-portfolio.webp
         |-- profile-image.jpg
     |-- next.svg
     |-- vercel.svg
 |-- scripts
-    |-- screenshots
-        |-- e-commerce-web-app.jpg
-        |-- photography-portfolio.jpg
     |-- automated_test.test.js
+    |-- codegen.test.js
+    |-- hardCode.test.js
     |-- screenshot.test.js
 |-- styless
     |-- globals.css
