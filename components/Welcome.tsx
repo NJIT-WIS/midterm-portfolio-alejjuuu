@@ -7,14 +7,14 @@ const Welcome: React.FC = () => {
     <div className="ds-banner">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+          <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 text-center">
             <figure>
               <Image
                 src="/images/profile-image.webp"
                 className="circle-image"
                 alt="Profile"
-                width={500}
-                height={500}
+                width={350}
+                height={350}
               />
             </figure>
           </div>
