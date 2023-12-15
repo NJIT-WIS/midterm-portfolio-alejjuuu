@@ -302,19 +302,19 @@ img {
   line-height: 13px;
   font-weight: 600;
   letter-spacing: 3px;
-  color: white;
+  color: #FF0000;
   /* Changed here */
   padding: 17px 30px;
-  border: 2px solid black;
+  border: 2px solid #FF0000;
   /* Changed here */
   border-radius: 60px;
-  background-color: #ff5050;
+  
 }
 
 .ds-button:hover {
-  background-color: white;
+  background-color: #FF0000;
   /* Changed here */
-  color: black;
+  color: #FFF;
 }
 
 .ds-arrow-button i {
