@@ -25,6 +25,7 @@ const Welcome: React.FC = () => {
                 <span>Hello world</span>
                 Alejandro <br /> thirsty to learn sofware enginering and AI.
               </h1>
+              <br></br>
               <div className="ds-button-sec text-center">
                 <Link
                   href="/projects"

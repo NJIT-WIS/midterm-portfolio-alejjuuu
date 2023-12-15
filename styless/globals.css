@@ -308,7 +308,7 @@ img {
   border: 2px solid black;
   /* Changed here */
   border-radius: 60px;
-  background-color: #FF0000;
+  background-color: #ff5050;
 }
 
 .ds-button:hover {
