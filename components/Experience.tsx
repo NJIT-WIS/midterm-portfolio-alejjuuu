@@ -18,9 +18,7 @@ const Experience: React.FC = () => {
               <span className="ds-year">May 2023 - Aug 2023</span>
               <h3 className="ds-officename">Bank of America</h3>
               <span className="ds-department">Software Engineer</span>
-              <p>
-                Select here to see my achievements at Bank of America.
-              </p>
+              <p>Click below to see my achievements at Bank of America.</p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements
@@ -31,14 +29,11 @@ const Experience: React.FC = () => {
                     virtual node parser fueling ML initiatives. Processed
                     diverse config files into a 100k+ row dataset, eliminating
                     duplicates. Resulting CSV and JSON outputs powered a Python
-                    search engine, accelerating team performance by 20%.
+                    search engine.
                   </li>
                   <li>
-                    Efficiency Amplifier - Certificate Monitor: Engineered
-                    Python app to daily track expiring node certificates, saving
-                    100+ annual work hours. Automated notifications ensured
-                    proactive renewals, showcasing my efficiency-focused
-                    solutions.
+                    Efficiency Amplifier: Engineered Python app to daily track
+                    expiring node certificates, saving 50+ annual work hours.
                   </li>
                   <li>
                     File Analysis for Precision: Devised Python tool for
@@ -49,8 +44,8 @@ const Experience: React.FC = () => {
                   <li>
                     Data Science Trailblazing: Led data science project
                     predicting currency fluctuations. Leveraged pandas and
-                    varied models, achieving a remarkable 8% error rate. My
-                    dedication to data excellence drives results.
+                    varied models, achieving a remarkable 8% error rate as a
+                    team.
                   </li>
                 </ul>
               </div>
@@ -63,9 +58,7 @@ const Experience: React.FC = () => {
               <span className="ds-year">Jun 2022 - Aug 2022</span>
               <h3 className="ds-officename">Fiserv</h3>
               <span className="ds-department">AppOps Intern</span>
-              <p>
-                Click here to see my achievements at Fiserv.
-              </p>
+              <p>Click below to see my achievements at Fiserv.</p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements
@@ -111,9 +104,7 @@ const Experience: React.FC = () => {
               <span className="ds-year">Feb 2022 - Jun 2022</span>
               <h3 className="ds-officename">RideEV</h3>
               <span className="ds-department">Frontend Developer</span>
-              <p>
-                Click here to see my achievements with a StartUp.
-              </p>
+              <p>Click below to see my achievements with a StartUp.</p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements
@@ -153,9 +144,7 @@ const Experience: React.FC = () => {
               <span className="ds-year">Jun 2021 - Aug 2021</span>
               <h3 className="ds-officename">Fiserv</h3>
               <span className="ds-department">Technical Operations Intern</span>
-              <p>
-                Click here to see my achievements at Fiserv.
-              </p>
+              <p>Click below to see my achievements at Fiserv.</p>
               <div className="dropdown">
                 <button className="dropdown-btn" onClick={toggleDropdown}>
                   Achievements
