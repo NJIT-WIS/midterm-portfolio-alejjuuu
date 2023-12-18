@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <h2 className="ds-heading">About Me</h2>
           <p>
             Hard worker, thirsty for learning, hustler, self-driven, looking for
-            software enginering or AI roles.
+            software engineering or AI roles.
           </p>
           <div className="ds-button-sec text-center">
             <a

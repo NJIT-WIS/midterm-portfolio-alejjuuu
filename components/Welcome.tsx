@@ -23,7 +23,7 @@ const Welcome: React.FC = () => {
             <section>
               <h1>
                 <span>Hello world</span>
-                Alejandro <br /> thirsty to learn software enginering and AI.
+                Alejandro <br /> thirsty to learn software engineering and AI.
               </h1>
               <br></br>
               <div className="ds-button-sec text-center">
