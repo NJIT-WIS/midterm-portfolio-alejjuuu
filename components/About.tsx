@@ -13,7 +13,7 @@ const About: React.FC = () => {
           </p>
           <div className="ds-button-sec text-center">
             <a
-              href="https://docs.google.com/document/d/1QPQSt-Kqm7OJtgIgJ-GQV-lzIVm0j6sVt2dPkNTtcvQ/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1Jn0UMBpQAvz-QE0aIgsNrWUl2xK4rl8CV8VluxdRlTs/edit?usp=sharing"
               className="ds-button"
               target="_blank"
               rel="noopener noreferrer"
