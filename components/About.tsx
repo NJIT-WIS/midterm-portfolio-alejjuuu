@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <section>
           <h2 className="ds-heading">About Me</h2>
           <p>
-            Hard worker, thirsty for learning, hustler, self-driven, looking for
+            Smart gentleman, thirsty for learning, hustler, self-driven, looking for
             software engineering or AI roles.
           </p>
           <div className="ds-button-sec text-center">
