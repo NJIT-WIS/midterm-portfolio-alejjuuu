@@ -639,7 +639,7 @@ span.ds-department {
 
 /* Dropdown becomes visible with animation */
 .dropdown-content.open {
-  max-height: 250px;
+  max-height: 200px;
   /* Adjust this value for content height */
   opacity: 1;
 }
@@ -659,7 +659,7 @@ span.ds-department {
   top: 100%;
   left: 0;
   margin-top: 5px;
-  width: 300%;
+  width: 200%;
   /* Dropdown is wider than the button */
   max-width: 600px;
   box-sizing: border-box;
