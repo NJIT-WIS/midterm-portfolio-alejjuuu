@@ -19,12 +19,12 @@ const Projects: React.FC = () => {
   // Handle clicks outside the dropdown to close it
   const handleClickOutside = (event: MouseEvent) => {
     dropdownRefs.current.forEach((dropdownRef, index) => {
-      // Check if the click happened outside both the dropdown and the button
+      // Ensure dropdownRef and buttonRefs.current[index] are not null before accessing .contains()
       if (
         dropdownRef &&
-        buttonRefs.current[index] &&
+        buttonRefs.current[index] && // Check if buttonRefs.current[index] is not null
         !dropdownRef.contains(event.target as Node) && // Check outside the dropdown
-        !buttonRefs.current[index].contains(event.target as Node) // Check outside the button
+        !buttonRefs.current[index]?.contains(event.target as Node) // Check outside the button, safely handle null with optional chaining
       ) {
         setOpenDropdowns((prev) => {
           const newState = [...prev];
