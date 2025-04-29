@@ -1,16 +1,49 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 const Projects: React.FC = () => {
-  const [isDropdownOpen1, setDropdownOpen1] = useState(false);
-  const [isDropdownOpen2, setDropdownOpen2] = useState(false);
+  // Track each dropdown's open state
+  const [openDropdowns, setOpenDropdowns] = useState<boolean[]>([false, false]);
+  // Refs for each dropdown and button
+  const dropdownRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const buttonRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
-  const toggleDropdown = (dropdownNumber: number) => {
-    if (dropdownNumber === 1) {
-      setDropdownOpen1(!isDropdownOpen1);
-    } else if (dropdownNumber === 2) {
-      setDropdownOpen2(!isDropdownOpen2);
-    }
+  // Toggle the specific dropdown
+  const toggleDropdown = (index: number) => {
+    setOpenDropdowns((prev) => {
+      const newState = [...prev];
+      newState[index] = !newState[index]; // Toggle the clicked dropdown
+      return newState;
+    });
   };
+
+  // Handle clicks outside the dropdown to close it
+  const handleClickOutside = (event: MouseEvent) => {
+    dropdownRefs.current.forEach((dropdownRef, index) => {
+      // Check if the click happened outside both the dropdown and the button
+      if (
+        dropdownRef &&
+        buttonRefs.current[index] &&
+        !dropdownRef.contains(event.target as Node) && // Check outside the dropdown
+        !buttonRefs.current[index].contains(event.target as Node) // Check outside the button
+      ) {
+        setOpenDropdowns((prev) => {
+          const newState = [...prev];
+          newState[index] = false; // Close the specific dropdown
+          return newState;
+        });
+      }
+    });
+  };
+
+  // Add the event listener for clicks outside
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="ds-experience-section">
@@ -30,16 +63,21 @@ const Projects: React.FC = () => {
                 </a>
               </p>
 
-              <div className="dropdown">
+              <div
+                className="dropdown"
+                ref={(el) => (dropdownRefs.current[0] = el)}
+              >
                 <button
                   className="dropdown-btn"
-                  onClick={() => toggleDropdown(1)}
+                  onClick={() => toggleDropdown(0)} // Pass index 0 for the first dropdown
+                  ref={(el) => (buttonRefs.current[0] = el)}
                 >
                   Achievements
                 </button>
                 <ul
-                  className="dropdown-content"
-                  style={{ display: isDropdownOpen1 ? "block" : "none" }}
+                  className={`dropdown-content ${
+                    openDropdowns[0] ? "open" : ""
+                  }`} // Toggle the open class
                 >
                   <li>
                     Crafted a captivating front-end web platform dedicated to
@@ -80,16 +118,21 @@ const Projects: React.FC = () => {
                 </a>
               </p>
 
-              <div className="dropdown">
+              <div
+                className="dropdown"
+                ref={(el) => (dropdownRefs.current[1] = el)}
+              >
                 <button
                   className="dropdown-btn"
-                  onClick={() => toggleDropdown(2)}
+                  onClick={() => toggleDropdown(1)} // Pass index 1 for the second dropdown
+                  ref={(el) => (buttonRefs.current[1] = el)}
                 >
                   Achievements
                 </button>
                 <ul
-                  className="dropdown-content"
-                  style={{ display: isDropdownOpen2 ? "block" : "none" }}
+                  className={`dropdown-content ${
+                    openDropdowns[1] ? "open" : ""
+                  }`} // Toggle the open class
                 >
                   <li>
                     Create a persuasive and appealing way to organize the

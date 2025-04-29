@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <section>
           <h2 className="ds-heading">About Me</h2>
           <p>
-            Smart gentleman, thirsty for learning, hustler, self-driven, looking for
+            Smart gentleman, quick learner, hustler, self-driven, looking for
             software engineering or AI roles.
           </p>
           <div className="ds-button-sec text-center">
@@ -18,7 +18,7 @@ const About: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Download Resume
+              See Resume
             </a>
           </div>
         </section>

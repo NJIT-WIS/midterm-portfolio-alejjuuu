@@ -63,38 +63,40 @@ const Skills: React.FC = () => {
               </li>
               <li>
                 <FontAwesomeIcon icon={faVuejs} />
-                <a href="https://github.com/alejjuuu/RideGreen">Vue.js</a>
+                <a href="https://github.com/alejjuuu/RideGreen"> Vue.js</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faReact} />
-                <a href="https://github.com/alejjuuu/Docker">React</a>
+                <a href="https://github.com/alejjuuu/Docker"> React</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faCss3} />
-                <a href="https://github.com/alejjuuu/NJFREEEDU">CSS</a>
+                <a href="https://github.com/alejjuuu/NJFREEEDU"> CSS</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faLinux} />
-                <a href="https://github.com/alejjuuu/linux-shell">LINUX</a>
+                <a href="https://github.com/alejjuuu/linux-shell"> LINUX</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faDatabase} />
                 <a href="https://github.com/alejjuuu/Code-work/tree/ProdWork/MySQL">
-                  SQL
+                  {" "}
+                  SQL{" "}
                 </a>
               </li>
               <li>
                 <a href="https://github.com/alejjuuu/Code-work/tree/ProdWork/R">
+                  {" "}
                   <FontAwesomeIcon icon={faRProject} />
                 </a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faCreditCard} />
-                <a href="your-link-here">Stripe payments</a>
+                <a href="your-link-here"> Stripe payments</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faBootstrap} />
-                <a href="your-link-here">Bootstrap / Tailwind</a>
+                <a href="your-link-here"> Bootstrap / Tailwind</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faPython} />
@@ -104,15 +106,15 @@ const Skills: React.FC = () => {
               </li>
               <li>
                 <FontAwesomeIcon icon={faTerminal} />
-                <a href="your-link-here">PowerShell</a>
+                <a href="your-link-here"> PowerShell</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faFileCode} />
-                <a href="your-link-here">XML / JSON</a>
+                <a href="your-link-here"> XML / JSON</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faDatabase} />
-                <a href="your-link-here">DBMS</a>
+                <a href="your-link-here"> DBMS</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faGithubAlt} />
@@ -140,15 +142,15 @@ const Skills: React.FC = () => {
               </li>
               <li>
                 <FontAwesomeIcon icon={faAws} />{" "}
-                <a href="https://github.com/alejjuuu/AWS">AWS</a>
+                <a href="https://github.com/alejjuuu/AWS"> AWS</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faMobileAlt} />
-                <a href="your-link-here">Android Studio</a>{" "}
+                <a href="your-link-here"> Android Studio</a>{" "}
               </li>
               <li>
                 <FontAwesomeIcon icon={faDocker} />{" "}
-                <a href="https://github.com/alejjuuu/Docker">Docker</a>
+                <a href="https://github.com/alejjuuu/Docker"> Docker</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faFigma} />
@@ -158,7 +160,7 @@ const Skills: React.FC = () => {
               </li>
               <li>
                 <FontAwesomeIcon icon={faLinux} />
-                <a href="your-link-here">Linux CLI</a>
+                <a href="your-link-here"> Linux CLI</a>
               </li>
             </ul>
           </div>
@@ -167,41 +169,41 @@ const Skills: React.FC = () => {
             <ul className="ds-skills-list">
               <li>
                 <FontAwesomeIcon icon={faPen} />
-                <a href="https://yeslea.com/">Copywriting</a>
+                <a href="https://yeslea.com/"> Copywriting</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faPalette} />
-                <a href="your-link-here">Adobe Premiere Pro</a>
+                <a href="your-link-here"> Adobe Premiere Pro</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faDesktop} />
-                <a href="your-link-here">Davinci resolve</a>
+                <a href="your-link-here"> Davinci resolve</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faPalette} />
-                <a href="your-link-here">Adobe Photoshop</a>
+                <a href="your-link-here"> Adobe Photoshop</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faPalette} />
-                <a href="your-link-here">Adobe Illustrator</a>
+                <a href="your-link-here"> Adobe Illustrator</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faMobileAlt} />
-                <a href="your-link-here">Capcut</a>
+                <a href="your-link-here"> Capcut</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faLanguage} /> Spanish
               </li>
               <li>
                 <FontAwesomeIcon icon={faDesktop} />
-                <a href="your-link-here">Final Cut Pro</a>
+                <a href="your-link-here"> Final Cut Pro</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default Skills;
