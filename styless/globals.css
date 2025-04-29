@@ -639,7 +639,7 @@ span.ds-department {
 
 /* Dropdown becomes visible with animation */
 .dropdown-content.open {
-  max-height: 300px;
+  max-height: 250px;
   /* Adjust this value for content height */
   opacity: 1;
 }
