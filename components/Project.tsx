@@ -50,6 +50,202 @@ const Projects: React.FC = () => {
       <div className="container">
         <h2 className="ds-heading">Projects</h2>
         <div className="row ds-experience-list">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <section>
+              {/* Project Duration */}
+              <span className="ds-year">Nov 2025 - Dec 2025</span>
+
+              {/* Project Title */}
+              <h3 className="ds-officename">NLP for Tax Preparation</h3>
+
+              {/* Project Role */}
+              <span className="ds-department">Python Script Developer</span>
+
+              {/* Project Description */}
+              <p>
+                The project focused on developing an NLP-based solution to
+                automate tax preparation using a Python script. The system
+                processes tax-related documents, extracting relevant information
+                for tax filing purposes, and outputs formatted data ready for
+                use in tax preparation software.
+              </p>
+              <p>
+                <a href="https://tecnj.herokuapp.com/roi.php">
+                  https://tecnj.herokuapp.com/roi.php
+                </a>
+              </p>
+              {/* Responsibilities and Achievements */}
+              <div
+                className="dropdown"
+                ref={(el) => (dropdownRefs.current[2] = el)}
+              >
+                <button
+                  className="dropdown-btn"
+                  onClick={() => toggleDropdown(2)} // Pass index 1 for the second dropdown
+                  ref={(el) => (buttonRefs.current[2] = el)}
+                >
+                  Achievements
+                </button>
+                <ul
+                  className={`dropdown-content ${
+                    openDropdowns[2] ? "open" : ""
+                  }`} // Toggle the open class
+                >
+                  {/* List of Achievements */}
+                  <li>
+                    <strong>Developed the core NLP engine:</strong> Created a
+                    Python-based script using NLP libraries (e.g., SpaCy, NLTK)
+                    to process and analyze tax documents.
+                  </li>
+                  <li>
+                    <strong>Automated Data Extraction:</strong> Built a data
+                    pipeline that extracts key financial data points from
+                    scanned PDFs and tax-related documents for easy integration
+                    with tax preparation software.
+                  </li>
+                  <li>
+                    <strong>Enhanced Data Accuracy:</strong> Applied machine
+                    learning models to improve accuracy of data extraction by
+                    over 15%, reducing human error in tax filing.
+                  </li>
+                  <li>
+                    <strong>Streamlined Workflow:</strong> Integrated the NLP
+                    system with existing tax software to allow automatic
+                    population of tax forms, improving workflow efficiency.
+                  </li>
+                  <li>
+                    <strong>API Development:</strong> Developed a REST API that
+                    allows external services to access the NLP processing for
+                    real-time data extraction.
+                  </li>
+                  <li>
+                    <strong>Testing and Debugging:</strong> Conducted unit
+                    testing and integration testing to ensure accuracy and
+                    reliability of the data processing system.
+                  </li>
+                  <li>
+                    <strong>Collaborated with Cross-functional Teams:</strong>{" "}
+                    Worked closely with tax consultants to ensure the output met
+                    legal and financial requirements, adapting the script as
+                    necessary.
+                  </li>
+                  <li>
+                    <strong>Security Measures:</strong> Enforced data security
+                    practices by encrypting sensitive client information and
+                    ensuring compliance with tax-related privacy regulations
+                    (e.g., GDPR).
+                  </li>
+                  <li>
+                    <strong>Results:</strong> Improved tax preparation speed by
+                    40%, while also increasing the accuracy of processed data,
+                    contributing to higher client satisfaction.
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <section>
+              {/* Project Duration */}
+              <span className="ds-year">Nov 2025 - Dec 2025</span>
+
+              {/* Project Title */}
+              <h3 className="ds-officename">
+                ROI Calculator and Data Visualizer
+              </h3>
+
+              {/* Project Role */}
+              <span className="ds-department">
+                Frontend Developer & Data Analyst
+              </span>
+
+              {/* Project Description */}
+              <p>
+                This project aimed to develop an interactive web-based tool to
+                help users calculate and visualize the Return on Investment
+                (ROI) from their financial data. The tool allows users to input
+                their revenue and expense data manually or upload it via CSV
+                files, providing a detailed breakdown of ROI metrics and
+                visualizations like pie charts and bar graphs. The system also
+                provides a downloadable CSV file containing the aggregated data
+                for further analysis.
+              </p>
+
+              {/* Responsibilities and Achievements */}
+              <div
+                className="dropdown"
+                ref={(el) => (dropdownRefs.current[2] = el)}
+              >
+                <button
+                  className="dropdown-btn"
+                  onClick={() => toggleDropdown(2)}
+                  ref={(el) => (buttonRefs.current[2] = el)}
+                >
+                  Achievements
+                </button>
+                <ul
+                  className={`dropdown-content ${
+                    openDropdowns[2] ? "open" : ""
+                  }`}
+                >
+                  {/* List of Achievements */}
+                  <li>
+                    <strong>Developed the User Interface:</strong> Designed and
+                    implemented a responsive, user-friendly interface using
+                    HTML, CSS, and JavaScript to handle expense and revenue
+                    inputs dynamically.
+                  </li>
+                  <li>
+                    <strong>Integrated Financial Calculations:</strong> Built a
+                    robust algorithm for ROI calculations, dynamically adjusting
+                    based on user inputs and displaying real-time results.
+                  </li>
+                  <li>
+                    <strong>Implemented Data Visualization:</strong> Integrated
+                    Chart.js to create interactive pie and bar charts that
+                    visually represent the breakdown of expenses, revenues, and
+                    ROI.
+                  </li>
+                  <li>
+                    <strong>CSV File Upload and Processing:</strong> Developed
+                    the functionality for users to upload CSV files containing
+                    their financial data, with automatic parsing and populating
+                    of the input fields.
+                  </li>
+                  <li>
+                    <strong>Enhanced User Experience:</strong> Enabled real-time
+                    updates of financial charts and ROI metrics as users modify
+                    their input, improving user interaction and satisfaction.
+                  </li>
+                  <li>
+                    <strong>CSV Data Download:</strong> Built a feature for
+                    users to download their entered or uploaded data as CSV
+                    files for offline use or further analysis.
+                  </li>
+                  <li>
+                    <strong>Cross-functional Collaboration:</strong> Worked
+                    closely with stakeholders to ensure that the application met
+                    business requirements and offered an intuitive, seamless
+                    experience for users.
+                  </li>
+                  <li>
+                    <strong>Performance Optimization:</strong> Optimized the
+                    frontend logic to handle large datasets efficiently,
+                    ensuring quick load times and a smooth experience even with
+                    complex data.
+                  </li>
+                  <li>
+                    <strong>Results:</strong> Improved the financial analysis
+                    process for users by providing quick, accurate insights into
+                    their investments, leading to more informed business
+                    decisions.
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
           {/* First Project */}
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <section>
